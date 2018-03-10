@@ -1,0 +1,18 @@
+*{margin:0;padding:0}
+#Xy-gallery > div{
+    float:left;
+    height:100px;
+    width:100px;  
+    overflow: hidden;
+    border-bottom:1px solid #fff;
+    border-right:1px solid #fff;
+    position:relative;
+    box-sizing: border-box;
+    transition:all 0.3s;
+}
+ #Xy-gallery > div img{ 
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+} 
